@@ -1,0 +1,38 @@
+{
+  "name": "git-keep",
+  "version": "1.0.0",
+  "description": "Git Backup",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoDotDog/Git-Keep.git"
+  },
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoDotDog/Git-Keep/issues"
+  },
+  "homepage": "https://github.com/SudoDotDog/Git-Keep#readme",
+  "devDependencies": {
+    "@sudoo/build-utils": "^1.0.0",
+    "@sudoo/license": "^1.1.0",
+    "@sudoo/triforce": "^2.9.29"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
