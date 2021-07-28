@@ -9,8 +9,6 @@ Git Backup
 
 ## Install
 
-Install globally
-
 ```sh
 yarn add git-keep
 # Or
